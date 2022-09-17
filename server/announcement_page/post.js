@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 
 const pageSchema = mongoose.Schema({
   title: String,
+  selectedFile: String,
   announcement: String,
   admin: String,
   club: String,
